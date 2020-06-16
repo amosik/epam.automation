@@ -3,12 +3,14 @@ package fundamentals;
 public class Task04 {
     public static void main(String[] args) {
         int sum = 0;
+        int mul = 1;
         for (int i = 0; i <args.length ; i++) {
-            String argElement = args[i];
-            int parseNumber = Integer.parseInt(argElement);
-            sum += parseNumber;
+            int argElement = Integer.parseInt(args[i]);
+            sum += argElement;
+            mul *= argElement;
         }
-        System.out.println(sum);
+        System.out.println("Сумма чисел = " + sum);
+        System.out.println("Произведение чисел = " + mul);
     }
 }
 
