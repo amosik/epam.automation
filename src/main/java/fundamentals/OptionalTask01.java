@@ -38,4 +38,3 @@ public class OptionalTask01 {
         return scanner.nextInt();
     }
 }
-//1.     Найти самое короткое и самое длинное число. Вывести найденные числа и их длину.
